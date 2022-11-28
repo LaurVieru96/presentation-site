@@ -53,21 +53,29 @@ header {
     color: var(--main-text-color);
 }
 
-.navbar {
+.navbar-menu {
     display: flex;
     /* margin: 0; */
 }
 
-.navbar a {
+.navbar-menu a {
     font-size: 1rem;
     padding: 10px 20px;
     color: var(--main-text-color);
     font-weight: 300;
 }
 
-.navbar a:hover {
+.navbar-menu a:hover {
     color: var(--main-bg-color);
 }
+
+
+/* Hamburger */
+.navbar {
+    display: none !important;
+}
+
+/* Hamburger */
 
 /* END */
 
@@ -461,7 +469,7 @@ header {
         color: var(--text-color);
     }
 
-    header .navbar {
+    header .navbar-menu {
         position: absolute;
         top: -500px;
         left: 0;
@@ -474,7 +482,10 @@ header {
         text-align: center;
     }
 
-    .navbar a {
+    .navbar {
+        display: flex !important;
+    }
+    .navbar-menu a {
         padding: 1.5rem;
         display: block;
         background: var(--bg-color);
