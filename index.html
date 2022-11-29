@@ -39,7 +39,6 @@
             <!-- here will be an dark mode on/off button -->
         </ul>
 
-
         <nav class="navbar fixed-top">
             <div class="container-fluid">
                 <a class="text-muted" href="navbar-brand"></a>
@@ -54,16 +53,16 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a onclick="window.location.href='#home'; return false;" class="nav-link active" aria-current="page" href="#" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
+                      <a onclick="handleSectionRedirect('#home')" class="nav-link active" aria-current="page" href="#home" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a onclick="window.location.href='#about'; return false;" class="nav-link active" aria-current="page" href="#" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About</a>
+                      <a onclick="handleSectionRedirect('#about')" class="nav-link active" aria-current="page" href="#about" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About</a>
                     </li>
                     <li class="nav-item">
-                      <a onclick="window.location.href='#skills'; return false;" class="nav-link active" aria-current="page" href="#" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Skills</a>
+                      <a onclick="handleSectionRedirect('#skills')" class="nav-link active" aria-current="page" href="#skills" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Skills</a>
                     </li>
                     <li class="nav-item">
-                      <a onclick="window.location.href='#portfolio';return false;" class="nav-link active" aria-current="page" href="#" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Portfolio</a>
+                      <a onclick="handleSectionRedirect('#portfolio')" class="nav-link active" aria-current="page" href="#portfolio" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -71,8 +70,6 @@
             </div>
           </nav>
         </nav>
-
-
     </header>
 
     <!--                              Home                          -->
@@ -90,7 +87,7 @@
             </a>
         </div>
         <div class="home-text">
-            <span>Hi, my name is</span>
+            <span>Hello, my name is</span>
             <h1>Laurentiu Vieru</h1>
             <h2>Junior Frontend Developer</h2>
             <p>Passionately opened for a new professional challenge and ready to take on responsibilities.</p>
@@ -241,7 +238,7 @@
 
     <!--                              Footer                            -->
 
-    <section class="footer">
+    <div class="footer">
         <h2>My socials</h2>
         <div class="footer-social">
             <a href="https://www.linkedin.com/in/laur-vieru96/" target="_blank">
@@ -254,7 +251,7 @@
                 <i class="fa-brands fa-facebook-f fa-2xl"></i>
             </a>
         </div>
-    </section>
+    </div>
 
 
     <!--                              CPRGHT                            -->
