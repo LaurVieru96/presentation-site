@@ -47,6 +47,7 @@ header {
     font-weight: 600;
     color: var(--main-text-color);
     /* pointer-events: none; */
+    z-index: 10000;
 }
 
 .logo-name:hover {
