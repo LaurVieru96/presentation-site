@@ -42,33 +42,42 @@
         <nav class="navbar fixed-top">
             <div class="container-fluid">
                 <a class="text-muted" href="navbar-brand"></a>
-              <button class="text-bg-light navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="text-white navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end bg-light bg-gradient bg-opacity-75" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button class="text-bg-light navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="text-white navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-light bg-gradient bg-opacity-75" tabindex="-1"
+                    id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a onclick="handleSectionRedirect('#home')" class="nav-link active" aria-current="page"
+                                    href="#home" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="handleSectionRedirect('#about')" class="nav-link active" aria-current="page"
+                                    href="#about" data-bs-dismiss="offcanvas"
+                                    data-bs-target="#offcanvasNavbar">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="handleSectionRedirect('#skills')" class="nav-link active"
+                                    aria-current="page" href="#skills" data-bs-dismiss="offcanvas"
+                                    data-bs-target="#offcanvasNavbar">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="handleSectionRedirect('#portfolio')" class="nav-link active"
+                                    aria-current="page" href="#portfolio" data-bs-dismiss="offcanvas"
+                                    data-bs-target="#offcanvasNavbar">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a onclick="handleSectionRedirect('#home')" class="nav-link active" aria-current="page" href="#home" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a onclick="handleSectionRedirect('#about')" class="nav-link active" aria-current="page" href="#about" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a onclick="handleSectionRedirect('#skills')" class="nav-link active" aria-current="page" href="#skills" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                      <a onclick="handleSectionRedirect('#portfolio')" class="nav-link active" aria-current="page" href="#portfolio" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar">Portfolio</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </nav>
+        </nav>
         </nav>
     </header>
 
@@ -151,13 +160,13 @@
             <div class="bars">
                 <div class="bars-box">
                     <h3>HTML</h3>
-                    <span>90%</span>
+                    <span>95%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar html-bar"></div>
                 </div>
                 <div class="bars-box">
                     <h3>CSS</h3>
-                    <span>80%</span>
+                    <span>90%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar css-bar"></div>
                 </div>
@@ -169,19 +178,19 @@
                 </div>
                 <div class="bars-box">
                     <h3>JavaScript</h3>
-                    <span>70%</span>
+                    <span>80%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar js-bar"></div>
                 </div>
                 <div class="bars-box">
                     <h3>TypeScript</h3>
-                    <span>60%</span>
+                    <span>70%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar ts-bar"></div>
                 </div>
                 <div class="bars-box">
                     <h3>ReactJS</h3>
-                    <span>10%</span>
+                    <span>50%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar react-bar"></div>
                 </div>
@@ -209,7 +218,7 @@
 
         <div class="portfolio-content">
             <div class="portfolio-img">
-                <a href="#" target="_blank">
+                <a href="https://game-master-store.netlify.app/" target="_blank">
                     <img src="assets/img/reactjs.png" alt="ReactJs Site">
                 </a>
             </div>
